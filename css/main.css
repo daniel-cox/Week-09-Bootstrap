@@ -18,7 +18,7 @@ a.navbar-brand {
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  padding-bottom: 10%;
+  padding-bottom: 2%;
 }
 
 .mainContent {
@@ -29,8 +29,27 @@ p {
   color: #e0e0e0;
 }
 
+p.paraContent {
+  color: #051524;
+  padding: 10px;
+}
+
+p.mainParaContent {
+  padding: 10px;
+  text-align: center;
+}
+
+.imgMainCol {
+  text-align: center;
+}
+
 .copyright {
   font-size: 0.6rem;
+}
+
+label {
+  color: #fff;
+  padding: 10px;
 }
 
 .col.-xl {
@@ -55,7 +74,7 @@ p {
 
 .bgContent {
   background-color: #ced3d7;
-  padding-bottom: 20px;
+  padding-bottom: 5em;
 }
 
 iframe {
