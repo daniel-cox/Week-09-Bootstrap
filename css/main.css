@@ -1,23 +1,63 @@
-body{
-    background-color: #000000;
+body {
+  background-color: #000000;
 }
-.bgHeader{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(23,23,23,1) 48%, rgba(48,48,48,1) 100%);
+.bgHeader {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(23, 23, 23, 1) 48%,
+    rgba(48, 48, 48, 1) 100%
+  );
 }
-a.navbar-brand{padding-left: 10px;}
+a.navbar-brand {
+  padding-left: 10px;
+}
 
-.imgLogo{
-    display: block;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-bottom: 10%;
+.imgLogo {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 10%;
 }
 
-.mainContent{
-    background-color: #ced3d7;
+.mainContent {
+  background-color: #ced3d7;
 }
-.contentPara{
-    padding-left: 10px;
-    padding-right: 10px;
+
+p {
+  color: #e0e0e0;
+}
+
+.copyright {
+  font-size: 0.6rem;
+}
+
+.col.-xl {
+  text-align: center;
+}
+
+.col.nopadding {
+  padding: 0;
+}
+
+.col.mainContent img {
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.col-md-3.mainContent {
+  text-align: center;
+}
+
+.bgContent {
+  background-color: #ced3d7;
+  padding-bottom: 20px;
+}
+
+iframe {
+  width: 100vw;
 }
