@@ -13,6 +13,27 @@ body {
 a.navbar-brand {
   padding-left: 10px;
 }
+table {
+  background-color: rgb(28, 28, 28);
+  color: #ced3d7;
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+th,
+td(odd) {
+  color: #fff !important;
+}
+element.style {
+  width: 350px;
+}
+
+.col h3 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+}
 
 .imgLogo {
   display: block;
@@ -79,4 +100,9 @@ label {
 
 iframe {
   width: 100vw;
+}
+
+@media screen (max-width 414px) {
+  table {
+  }
 }
