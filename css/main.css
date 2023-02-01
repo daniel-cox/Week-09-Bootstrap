@@ -21,6 +21,10 @@ table {
   margin: 0 auto;
 }
 
+.lineBr {
+  padding-top: 20px;
+}
+
 th,
 td(odd) {
   color: #fff !important;
@@ -96,6 +100,7 @@ label {
 .bgContent {
   background-color: #ced3d7;
   padding-bottom: 5em;
+  padding-top: 1em;
 }
 
 iframe {
